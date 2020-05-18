@@ -47,6 +47,7 @@ form button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 40vh;
 
 }
 
@@ -134,4 +135,27 @@ select{
 .select:hover::after{
     background: white;
     color: rgb(241, 121, 77);
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content h1{
+    font-size: 25px;
+    background: linear-gradient(to right,#f74747,#f50c0c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+    
+}
+
+@media screen and (max-width: 720px){
+    form{
+        
+        flex-wrap: wrap;
+        min-width: 20%;
+        
+    }
+
 }
